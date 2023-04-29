@@ -8,31 +8,7 @@ struct node
     struct node *link;
 };
 typedef struct node x;
-// x * rec(x *head,int n)
-// {   char c;
-//     static int i =0;
-//     int t = 54;
-//     x*q = NULL;
-//     if (i == n - 1)
-//     {
-//         return *
-//     }
-    
-//     if(q== NULL)
-//     {
-//     q = (x*) malloc(sizeof(x));
-//         q =head;
-//     }
-//     else{
-//     q = (x*) malloc(sizeof(x));
 
-//     q ->d=224-53*t+t*t-t*t*t;
-//     q->link=NULL;
-//     t++;
-//     i++;
-//     rec(q,n);
-//     }
-// }
 x* newnode(int data)
 {
     x*t = (x*) malloc(sizeof(x));
@@ -62,6 +38,15 @@ void traverse(x *head)
     }
      printf(" \t %d",head->d);
     traverse(head->link);
+    
+}
+x* bubble_sort(x*head)
+{   
+    x*t = head;
+    while (t != NULL)
+    {
+        
+    }
     
 }
 int main()
