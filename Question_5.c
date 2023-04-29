@@ -45,7 +45,7 @@ x* bubble_sort(x*head)
     x*t = head;
     while (t != NULL)
     {
-        
+         printf("Somethings");
     }
     
 }
