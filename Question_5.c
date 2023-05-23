@@ -42,10 +42,13 @@ void traverse(x *head)
 }
 x* bubble_sort(x*head)
 {   
-    x*t = head;
+    x*t,*c;
+    t = head;
+    c = t->link;
     while (t != NULL)
     {
-         printf("Somethings");
+        
+         
     }
     
 }

@@ -64,7 +64,7 @@ void output(int arr[], int n)
  
 int main()
 {
-     int *ptr,n=10;
+     int *ptr,n=9;
      ptr = (int*) malloc(n*sizeof(int));
      for (int i = 0; i < n; i++)
      {
