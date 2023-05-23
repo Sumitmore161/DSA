@@ -4,7 +4,7 @@
 // #include <iostream>
 #define loop(ii,n) for(int ii=0; ii < n ; ii++)
 #define loop_start(ii,start,n) for(int ii=start; ii < n ; ii++)
-#define al(n) (x*)malloc(n*sizeof(y))
+#define al(n) (x*)malloc(n*sizeof(x))
 #define in(var)  scanf("%d",&var);
 #define o(var)   printf("%d\t",var);
 struct node
